@@ -1,0 +1,74 @@
+/** Global StyleSheet =============================
+ Reset, Typography
+ ============================================== **/
+
+@use "./variables" as *;
+@use "./mixins";
+@use "./typography";
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $background-light;
+  font-family: "TitilliumWeb", Helvetica, sans-serif;
+  @include mixins.body-md-mobile;
+  @include mixins.tablet {
+    @include mixins.body-md-tablet;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Typography based on Mobile First*/
+h1 {
+  @include mixins.page-header-mobile;
+
+  @include mixins.tablet {
+    @include mixins.page-header-tablet;
+  }
+}
+
+h2 {
+  @include mixins.sub-header-mobile;
+
+  @include mixins.tablet {
+    @include mixins.sub-header-tablet;
+  }
+}
+
+h3 {
+  @include mixins.label-mobile;
+  @include mixins.tablet {
+    @include mixins.label-tablet;
+  }
+}
+
+h4 {
+  @include mixins.table-header-mobile;
+  @include mixins.tablet {
+    @include mixins.table-header-tablet;
+  }
+}
