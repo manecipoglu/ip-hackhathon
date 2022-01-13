@@ -7,8 +7,8 @@ const readFile = (path) => {
 };
 
 // helper function to write
-const writeFile = (warehouseData, filePath) => {
-  fs.writeFileSync(filePath, JSON.stringify(warehouseData, null, 2));
+const writeFile = (data, filePath) => {
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 };
 
 module.exports = {
