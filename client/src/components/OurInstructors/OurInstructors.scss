@@ -1,9 +1,9 @@
-.our-classes {
+.our-instructors {
   background-color: #3d4150;
   display: flex;
   flex-direction: column;
 }
-.class-name {
+.instructors-header {
   display: flex;
   justify-content: center;
 
@@ -13,11 +13,12 @@
     font-weight: lighter;
   }
 }
-.class-cards {
+.instructor-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-.card-button {
+.instructor-button {
   display: flex;
   justify-content: center;
 

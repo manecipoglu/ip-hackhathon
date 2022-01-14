@@ -1,0 +1,22 @@
+.instructor-card {
+  display: flex;
+  margin-top: 2rem;
+  //   width: 180px;
+  //   height: 360px;
+}
+.instructor-card-info {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: lighter;
+  }
+
+  &__text {
+    font-size: 18px;
+
+    // font-weight: lighter;
+  }
+}
