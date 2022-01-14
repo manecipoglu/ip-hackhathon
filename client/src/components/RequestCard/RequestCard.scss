@@ -1,0 +1,47 @@
+@use "../../styles/partials/variables" as *;
+.request-card {
+  background-color: #3d4150;
+  display: flex;
+  justify-content: space-around;
+}
+.program-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__title {
+    font-size: 1.125rem;
+    font-weight: lighter;
+    margin-top: 0;
+  }
+}
+.payment-info {
+  display: flex;
+  flex-direction: column;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: 0;
+  }
+  &__total {
+    font-size: 1.125rem;
+    align-self: flex-end;
+  }
+}
+.visa-card {
+  display: flex;
+  justify-content: space-between;
+}
+.visa-detail {
+  display: flex;
+
+  &__no {
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+}

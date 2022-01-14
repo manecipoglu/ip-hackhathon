@@ -1,0 +1,24 @@
+@use "../../styles/partials/variables" as *;
+.request-page {
+  color: $text-light;
+  text-align: center;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0;
+  }
+}
+.footer-button {
+  display: flex;
+  justify-content: flex-end;
+
+  &__name {
+    font-size: 28px;
+    font-weight: lighter;
+    background-color: #5cc9b5;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+}

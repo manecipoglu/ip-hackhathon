@@ -5,11 +5,13 @@ import MainPage from "./pages/MainPage/MainPage";
 import GymPage from "./pages/GymPage/GymPage";
 import InstructorPage from "./pages/InstructorPage/InstructorPage";
 import "./styles/App.scss";
+import RequestBook from "./components/RequestBook/RequestBook";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Header />
+      <RequestBook />
       <Switch>
         <Route exact path={["/", "/gyms"]} component={MainPage} />
         <Route exact path="/gyms/:id" component={GymPage} />
