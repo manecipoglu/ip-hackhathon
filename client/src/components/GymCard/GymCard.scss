@@ -2,12 +2,23 @@
 
 .gym-card {
   background-color: $bg-dark;
+  border: 1px solid $bg-dark;
   min-width: 31rem;
   height: 9.875rem;
   color: $text-light;
   display: flex;
   margin: 0.1875rem 0;
   cursor: pointer;
+  box-sizing: border-box;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    border: 1px solid $bg-hover;
+    background-color: $bg-light;
+  }
 
   &__logo {
     width: 10.125rem;

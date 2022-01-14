@@ -2,6 +2,7 @@ import { Component } from "react";
 import GymCard from "../../components/GymCard/GymCard";
 import axios from "axios";
 import map from "../../assets/Map.png";
+import filters from "../../assets/Filter Buttons.png";
 import "./MainPage.scss";
 
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8080";
@@ -18,12 +19,27 @@ export default class MainPage extends Component {
     });
   }
 
+  //   handleChange = (e) => {
+  //     const query = e.target.value.toLowerCase();
+  //     const results = this.state.gyms.filter((gym) => {
+  //       if (gym.name.toLowerCase().includes(query)) {
+  //         return gym;
+  //       }
+  //     });
+
+  //     console.log(query, this.state.gyms);
+
+  //     this.setState({ inventories: results });
+  //   };
+
   render() {
     const { gyms } = this.state;
 
     return (
       <main className="main">
-        <div className="main__configs"></div>
+        <div className="main__configs">
+          <img src={filters} alt="filters" className="main__filters" />
+        </div>
         <div className="main__container">
           <section className="main__side-nav">
             <div className="main__results">
