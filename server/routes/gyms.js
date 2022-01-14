@@ -29,4 +29,12 @@ gymRouter.get("/:id/classes", (req, res) => {
   res.status(200).json(gymClasses);
 });
 
+//Get reviews of a gym by id
+gymRouter.get("/:id/reviews", (req, res) => {
+  const reviews = readFile("./data/reviews.json");
+  const gymReviews = reviews.filter((review) => review.gymID === req.params.id);
+  if (!gymReviews) return res.status(404).send("No reviews found");
+  res.status(200).json(gymReviews);
+});
+
 module.exports = gymRouter;

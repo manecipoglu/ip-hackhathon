@@ -14,7 +14,7 @@ export default function InstructorCard({ title, classes }) {
         alt="instructor rating"
       />
       {classes.map((everyClass) => (
-        <p>{everyClass}</p>
+        <p key={everyClass}>{everyClass}</p>
       ))}
     </div>
   );
