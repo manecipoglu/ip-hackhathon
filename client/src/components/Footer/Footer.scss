@@ -1,0 +1,32 @@
+.footer-contanier {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3d4150;
+}
+.left-section {
+  display: flex;
+}
+.footer-section {
+  &__title {
+    color: #ffffff;
+    font-size: 24px;
+  }
+}
+.footer-options {
+  &__select {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+.contact-us {
+  &__title {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  &__email {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}

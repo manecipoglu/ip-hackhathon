@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
 import MainPage from "./pages/MainPage/MainPage";
-import "./styles/App.scss";
 import GymPage from "./pages/GymPage/GymPage";
+import "./styles/App.scss";
 
 export default function App() {
   return (
