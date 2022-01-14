@@ -10,21 +10,25 @@
   .class-card-info {
     margin-left: 1rem;
     width: 60%;
+    color: #ffffff;
 
     &__title {
       font-size: 18px;
       font-weight: bold;
       margin-bottom: 10px;
+      color: #ffffff;
     }
     &__text {
       font-size: 15px;
       line-height: 150%;
       margin-top: 0;
+      color: #ffffff;
     }
     &__button {
       width: 120px;
       height: 36px;
       border: none;
+      background-color: #5cc9b5;
     }
   }
 }
