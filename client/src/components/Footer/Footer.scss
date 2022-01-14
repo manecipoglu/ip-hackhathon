@@ -1,0 +1,28 @@
+@use "../../styles/partials/variables" as *;
+
+.footer {
+  color: $text-light;
+  display: flex;
+  gap: 3.5rem;
+  padding: 0 16rem 2rem 16rem;
+  background-color: $bg-light;
+
+  &__section--logo {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  &__copy {
+    font-weight: 400;
+
+    &--title {
+      font-weight: 600;
+      margin-top: 1.875rem;
+    }
+  }
+
+  &__logo {
+    margin-top: 2.5rem;
+    margin-right: 0;
+  }
+}

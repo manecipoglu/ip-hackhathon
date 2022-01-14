@@ -1,0 +1,71 @@
+@use "../../styles/partials/variables" as *;
+
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  color: $text-light;
+  padding: 3.875rem 0 6.7rem 0;
+  margin-bottom: 3.1875rem;
+  background-color: $bg-light;
+
+  &__label {
+    font-weight: 600;
+  }
+
+  &__logo {
+    position: relative;
+    left: -10px;
+  }
+
+  &__ctas {
+    margin-top: 1.8rem;
+  }
+
+  &__cta {
+    height: 3.36rem;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: $bg-cta;
+    font-size: 1.125rem;
+    font-weight: 600;
+    box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      background-color: $bg-hover;
+    }
+
+    & + & {
+      margin-left: 1rem;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    align-items: baseline;
+    gap: 3.655rem;
+    color: $bg-cta;
+  }
+
+  &__rating {
+    transform: scale(1.5);
+    position: relative;
+    left: 25px;
+    top: 10px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__phone::before {
+    content: url(../../assets/icons/phone.png);
+    position: relative;
+    top: 10px;
+    right: 5px;
+  }
+  &__email::before {
+    content: url(../../assets/icons/mail.png);
+    position: relative;
+    top: 5px;
+    right: 5px;
+  }
+}

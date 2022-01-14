@@ -1,0 +1,46 @@
+@use "../../styles/partials/variables" as *;
+
+.instructor-card {
+  color: $text-light;
+  max-width: 37.5rem;
+  gap: 1.8125rem;
+  margin: 0 1.45rem;
+  text-align: center;
+
+  &:hover > &__img {
+    transform: scale(1.4);
+  }
+  &:hover > &__title {
+    color: $bg-hover;
+  }
+
+  &__img {
+    transition: transform 0.75s ease-out 100ms;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 400;
+
+    transition: color 0.75s ease-out 100ms;
+  }
+
+  &__rating {
+    transform: scale(1.7);
+  }
+
+  &__classes {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__message {
+    text-align: justify;
+  }
+}

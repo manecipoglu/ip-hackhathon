@@ -3,17 +3,24 @@ import "./SearchBar.scss";
 export default function SearchBar() {
   return (
     <div className="search">
+      <span className="search__input--text"></span>
       <input
         placeholder="search for anything"
         type="text"
         className="search__input search__input--copy"
       />
+      <span className="search__input--location"></span>
       <input
         type="text"
         className="search__input search__input--city"
-        value="Vancouver, BC"
+        defaultValue="Vancouver, BC"
       />
-      <input type="text" className="search__input search__input--hiit" />
+      <span className="search__input--down"></span>
+      <input
+        type="text"
+        className="search__input search__input--hiit"
+        defaultValue="HIIT"
+      />
     </div>
   );
 }

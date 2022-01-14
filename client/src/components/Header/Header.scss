@@ -1,17 +1,27 @@
+@use "../../styles/partials/variables" as *;
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 2.625rem 5.25rem;
 
   height: 9.375rem;
   max-width: 120rem;
-  background-color: #c4c4c4;
+  background-color: $bg-light;
+
+  box-sizing: border-box;
+
+  &__profile {
+    display: flex;
+    align-items: center;
+  }
 
   &__avatar {
-    width: 5.3rem;
-    height: 5.3rem;
-    border-radius: 50%;
-    background-color: black;
+    margin-left: 1.7rem;
+  }
+
+  &__logo {
+    cursor: pointer;
   }
 }

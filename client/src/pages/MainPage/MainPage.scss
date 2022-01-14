@@ -1,0 +1,40 @@
+@use "../../styles/partials/variables" as *;
+.main {
+  &__container {
+    display: flex;
+  }
+
+  &__configs {
+    height: 5.6rem;
+    background-color: $bg-dark;
+    padding-left: 2.63rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__map {
+    position: absolute;
+    width: 100%;
+    object-fit: scale-down;
+    z-index: -1;
+  }
+
+  &__results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-dark;
+    height: 3.9rem;
+    min-width: 31rem;
+    margin: 0.1875rem 0;
+  }
+
+  &__title {
+    color: $text-light;
+    font-size: 1.25rem;
+  }
+
+  &__side-nav {
+    background-color: $bg-light;
+  }
+}

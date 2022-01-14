@@ -1,0 +1,41 @@
+@use "../../styles/partials/variables" as *;
+
+.reviews {
+  color: $text-light;
+  font-weight: 400;
+  margin: 3.125rem 0;
+  padding: 1.73rem 0;
+  background-color: $bg-light;
+  text-align: center;
+
+  &__container {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.65rem;
+    margin-bottom: 4.5rem;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0 0 2rem 0;
+  }
+
+  &__cta {
+    height: 3.36rem;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: $bg-cta;
+    font-size: 1.125rem;
+    font-weight: 600;
+    box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1.43rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $bg-hover;
+    }
+  }
+}

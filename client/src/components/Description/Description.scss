@@ -1,0 +1,42 @@
+@use "../../styles/partials/variables" as *;
+
+.description {
+  color: $text-light;
+  font-weight: 400;
+  margin: 3.125rem 0;
+  padding: 1.73rem 0;
+  background-color: $bg-light;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.65rem;
+    margin-bottom: 4.5rem;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0 0 2rem 0;
+  }
+
+  &__text {
+    max-width: 36rem;
+    font-size: 1.125rem;
+
+    position: relative;
+
+    &::before {
+      content: url(../../assets/icons/arrow-left.png);
+      position: absolute;
+      top: 70px;
+      left: -700px;
+    }
+    &::after {
+      content: url(../../assets/icons/arrow-right.png);
+      position: absolute;
+      top: 70px;
+      right: 600px;
+    }
+  }
+}

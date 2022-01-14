@@ -1,0 +1,44 @@
+@use "../../styles/partials/variables" as *;
+
+.payment-card {
+  display: flex;
+  font-size: 1.25rem;
+  text-align: left;
+  gap: 1.5rem;
+  background-color: $bg-light;
+
+  &__wrapper {
+    border-left: 1px solid $text-light;
+    height: 9.375rem;
+    margin-top: 2rem;
+    padding-left: 2rem;
+  }
+
+  &__detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__bold {
+    font-weight: 600;
+  }
+}
+
+.total {
+  margin-left: auto;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.copy {
+  margin: 0;
+}
+
+.edit {
+  margin-left: auto;
+}
+
+.visa {
+  margin-right: 1rem;
+}

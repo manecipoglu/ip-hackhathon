@@ -1,0 +1,42 @@
+@use "../../styles/partials/variables" as *;
+
+.instructor {
+  display: flex;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+
+  &__filter-container {
+    display: flex;
+    align-items: center;
+    margin: -6.7rem 1.5rem 2.65rem 0;
+  }
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 400;
+    color: $text-light;
+    margin: 0 2.65rem 0 0;
+  }
+
+  &__side {
+    max-width: 18.6rem;
+    text-align: center;
+    padding: 0 10rem;
+  }
+
+  &__cta {
+    height: 3.36rem;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: $bg-cta;
+    font-size: 1.125rem;
+    font-weight: 600;
+    box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+    min-width: 16.5rem;
+
+    & + & {
+      margin-top: 1rem;
+    }
+  }
+}

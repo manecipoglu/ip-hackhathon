@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bootcamp",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "classTitle": "BOOT CAMP",
+    "description": "This class involves intense physical training that builds strength and fitness through group intervals over a one hour time period."
+  },
+  {
+    "id": "hiit",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "classTitle": "HIIT",
+    "description": "HIIT refers to a very specific and particular type of training—and it's possible to do interval training without actually doing a real HIIT workout."
+  },
+  {
+    "id": "poweryoga",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "classTitle": "POWER YOGA",
+    "description": "This style of yoga is more intense, similar to Ashtanga and some Vinyasa. You will focus on strength and endurance, as well as flexibility and relaxation."
+  },
+  {
+    "id": "stabilityballcore",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "classTitle": "STABILITY BALL CORE",
+    "description": "Exercise Balls have many uses in Pilates. While they can be used as a simple support, they can engage all your core muscles by making balancing more of a challenge."
+  }
+]
