@@ -1,34 +1,15 @@
-/** Global StyleSheet =============================
- Reset, Typography
- ============================================== **/
+// /** Global StyleSheet =============================
+//  Reset, Typography
+//  ============================================== **/
 
 @use "./variables" as *;
 @use "./mixins";
-
-/* Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
   padding: 0;
   background: #ddd;
   font-family: "Open Sans", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 ul {
