@@ -1,0 +1,50 @@
+@use "../../styles/partials/variables" as *;
+.booking-page {
+  color: $text-light;
+  text-align: center;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0;
+  }
+}
+.booking-card-container {
+  display: flex;
+  justify-content: center;
+  width: 907px;
+  height: 358px;
+}
+.booking-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  &__mesg {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+  &__q {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #5cc9b5;
+    align-self: flex-start;
+  }
+}
+
+.footer-button {
+  width: 335px;
+  height: 66px;
+
+  &__name {
+    font-size: 28px;
+    font-weight: lighter;
+    background-color: #5cc9b5;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+}
