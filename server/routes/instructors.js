@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const instructorsRouter = Router();
-const { readFile, writeFile } = require("../utils/helpers");
+const { readFile } = require("../utils/helpers");
 
 const FILE_PATH = "./data/instructors.json";
 
@@ -25,16 +25,13 @@ instructorsRouter.get("/:id", (req, res) => {
 //Get all the instructors from a single gym
 instructorsRouter.get("/gyms/:gymId", (req, res) => {
   const gymId = req.params.gymId;
-  const instructorsList = [];
 
   const instructors = readFile(FILE_PATH);
-  instructors.forEach((instructor) => {
-    if (instructor.gymID === gymId) {
-      instructorsList.push(instructor);
-    }
-  });
+  const gymInstructors = instructors.filter(
+    (instructor) => instructor.gymID === gymId
+  );
 
-  res.status(200).json(instructorsList);
+  res.status(200).json(gymInstructors);
 });
 
 module.exports = instructorsRouter;

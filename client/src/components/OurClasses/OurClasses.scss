@@ -1,32 +1,31 @@
+@use "../../styles/partials/variables" as *;
+
 .our-classes {
-  background-color: #3d4150;
-  display: flex;
-  flex-direction: column;
-}
-.class-name {
-  display: flex;
-  justify-content: center;
+  color: $text-light;
+  text-align: center;
+  padding: 1.7rem;
+  background-color: $bg-light;
 
   &__title {
-    font-size: 32px;
-    color: #ffffff;
-    font-weight: lighter;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0;
   }
-}
-.class-cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-.card-button {
-  display: flex;
-  justify-content: center;
 
-  &__name {
-    margin-top: 2rem;
-    width: 222px;
-    height: 54px;
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  &__cta {
+    height: 3.36rem;
+    padding: 0 2rem;
     border: none;
-    background-color: #5cc9b5;
-    margin-bottom: 1rem;
+    background-color: $bg-cta;
+    font-size: 1.125rem;
+    font-weight: 600;
+    box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
   }
 }

@@ -1,21 +1,25 @@
 @use "../../styles/partials/variables" as *;
 
-.our-instructors {
+.reviews {
   color: $text-light;
-  text-align: center;
-  padding: 1.7rem;
+  font-weight: 400;
+  margin: 3.125rem 0;
+  padding: 1.73rem 0;
   background-color: $bg-light;
-  margin-top: 3.125rem;
+  text-align: center;
 
-  &__title {
-    font-size: 2rem;
-    margin-top: 0;
-  }
-
-  &__cards {
+  &__container {
+    text-align: left;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    align-items: center;
+    gap: 8.65rem;
+    margin-bottom: 4.5rem;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0 0 2rem 0;
   }
 
   &__cta {
@@ -26,5 +30,6 @@
     font-size: 1.125rem;
     font-weight: 600;
     box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1.43rem;
   }
 }

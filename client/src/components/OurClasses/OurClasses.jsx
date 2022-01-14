@@ -1,24 +1,22 @@
-import React from "react";
 import "./OurClasses.scss";
 import ClassCard from "../ClassCard/ClassCard";
 
-const OurClasses = () => {
+export default function OurClasses({ classes }) {
   return (
     <section className="our-classes">
-      <div className="class-name">
-        <h2 className="class-name__title">Our Classes</h2>
+      <h2 className="our-classes__title">Our Classes</h2>
+
+      <div className="our-classes__cards">
+        {classes.map((eachClass) => (
+          <ClassCard
+            title={eachClass.classTitle}
+            text={eachClass.description}
+            key={eachClass.id}
+          />
+        ))}
       </div>
-      <div className="class-cards">
-        <ClassCard />
-        <ClassCard />
-        <ClassCard />
-        <ClassCard />
-      </div>
-      <div className="card-button">
-        <button className="card-button__name">See All Classes </button>
-      </div>
+
+      <button className="our-classes__cta">See All Classes </button>
     </section>
   );
-};
-
-export default OurClasses;
+}

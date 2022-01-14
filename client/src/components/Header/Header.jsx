@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SearchBar from "../SearchBar/SearchBar";
 import account from "../../assets/icons/account.png";
 import logo from "../../assets/logo/logo.png";
@@ -7,7 +8,9 @@ import "./Header.scss";
 export default function Header() {
   return (
     <header className="header">
-      <img src={logo} alt="avatar" className="header__logo" />
+      <Link to="/">
+        <img src={logo} alt="avatar" className="header__logo" />
+      </Link>
       <SearchBar />
       <div className="header__profile">
         <img src={hamburger} alt="hamburger menu" />

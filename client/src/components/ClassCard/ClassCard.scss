@@ -1,34 +1,30 @@
+@use "../../styles/partials/variables" as *;
+
 .class-card {
   display: flex;
-  width: 50%;
+  color: $text-light;
+  max-width: 37.5rem;
+  gap: 1.8125rem;
+  margin: 1.45rem;
+  text-align: left;
 
-  &__img {
-    width: 239px;
-    height: 168px;
-    margin-left: 2rem;
+  &__title {
+    margin: 0;
   }
-  .class-card-info {
-    margin-left: 1rem;
-    width: 60%;
-    color: #ffffff;
 
-    &__title {
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #ffffff;
-    }
-    &__text {
-      font-size: 15px;
-      line-height: 150%;
-      margin-top: 0;
-      color: #ffffff;
-    }
-    &__button {
-      width: 120px;
-      height: 36px;
-      border: none;
-      background-color: #5cc9b5;
-    }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__cta {
+    height: 2.25rem;
+    background-color: $bg-cta;
+    border: none;
+    padding: 0 1rem;
+    font-weight: 600;
+    box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+    max-width: 7.5rem;
   }
 }

@@ -31,15 +31,17 @@
     "id": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
     "name": "Orangetheory",
     "address": "3485 Sawmill Crescent",
+    "fullAddress": "3485 Sawmill Crescent, Vancouver, BC V5S 0H2 Killarney",
     "city": "Vancouver",
     "country": "CAN",
     "rating": "4.7",
     "classes": ["Open Air Classes", "Virtual"],
     "reviewCount": 32,
     "contact": {
-      "phone": "(646) 123-1234",
+      "phone": "(604) 760-1032",
       "email": "info@orangetheory.ca"
-    }
+    },
+    "about": "You will feel new energy and see amazing results with only 2-4 workouts per week. Each 60-minute class is broken into intervals of high-energy cardiovascular training and strength training. Use a variety of equipment including treadmills, rowing machines, suspension training, and free weights to tone your body and gain energy throughout the day. Exciting and inspiring group classes motivate you to beat plateaus and stick to your goals. The best part of the Orange Experience is the results. You can burn calories for up to 38 hours after your workout! Show less"
   },
   {
     "id": "bfc9bea7-66f1-44e9-879b-4d363a888eb4",

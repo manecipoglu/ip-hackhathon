@@ -2,22 +2,22 @@ import React from "react";
 import "./OurInstructors.scss";
 import InstructorCard from "../InstructorCard/InstructorCard";
 
-const OurInstructors = () => {
+const OurInstructors = ({ instructors }) => {
   return (
     <section className="our-instructors">
-      <div className="instructors-header">
-        <h2 className="instructors-header__title">Our Instructors</h2>
-      </div>
-      <div className="instructor-cards">
-        <InstructorCard />
-        <InstructorCard />
-        <InstructorCard />
-        <InstructorCard />
+      <h2 className="our-classes__title">Our Instructors</h2>
+
+      <div className="our-instructors__cards">
+        {instructors.map((instructor) => (
+          <InstructorCard
+            title={instructor.instructorName}
+            key={instructor.id}
+            classes={instructor.classes}
+          />
+        ))}
       </div>
 
-      <div className="instructor-button">
-        <button className="instructor-button__name">See All Instructors</button>
-      </div>
+      <button className="our-instructors__cta">See All Instructors</button>
     </section>
   );
 };

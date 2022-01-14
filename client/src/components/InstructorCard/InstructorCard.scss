@@ -1,22 +1,19 @@
+@use "../../styles/partials/variables" as *;
+
 .instructor-card {
-  display: flex;
-  margin-top: 2rem;
-  //   width: 180px;
-  //   height: 360px;
-}
-.instructor-card-info {
-  display: flex;
-  flex-direction: column;
+  color: $text-light;
+  max-width: 37.5rem;
+  gap: 1.8125rem;
+  margin: 1.45rem;
+  text-align: center;
 
   &__title {
-    font-size: 24px;
-    color: #ffffff;
-    font-weight: lighter;
+    margin: 1.85rem;
   }
 
-  &__text {
-    font-size: 18px;
-
-    // font-weight: lighter;
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

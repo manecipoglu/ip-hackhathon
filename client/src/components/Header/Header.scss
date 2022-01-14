@@ -10,6 +10,8 @@
   max-width: 120rem;
   background-color: $bg-light;
 
+  margin-bottom: 3.1875rem;
+
   &__profile {
     display: flex;
     align-items: center;
@@ -17,5 +19,9 @@
 
   &__avatar {
     margin-left: 1.7rem;
+  }
+
+  &__logo {
+    cursor: pointer;
   }
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "mengjie",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "reviewerName": "Mengjie",
+    "review": "We have a very responsible coach who has been very enthusiastic in every class. I have been here for a month of classes and personal training sessions. Thank you to Darnell, the responsible coach.",
+    "rating": "Kristina Asher",
+    "date": "October 1, 2021"
+  },
+  {
+    "id": "pauline",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "reviewerName": "Pauline",
+    "review": "Intense workout, but you leave feeling accomplished. Brendan is very thorough and pushes you to the best of your capabilities. The small groups give you almost a personal training experience. I highly recommend taking these classes!",
+    "rating": "Kristina Asher",
+    "date": "October 12, 2021"
+  }
+]

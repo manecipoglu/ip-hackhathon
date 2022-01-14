@@ -1,0 +1,30 @@
+@use "../../styles/partials/variables" as *;
+
+.review-card {
+  color: $text-light;
+  font-weight: 400;
+  padding: 1.73rem 0;
+  background-color: $bg-light;
+  max-width: 37.31rem;
+
+  &__container {
+    display: flex;
+
+    align-items: center;
+    gap: 1.875rem;
+  }
+
+  &__title {
+    margin: 0.625rem 0;
+  }
+
+  &__date {
+    margin-top: 0;
+    margin-bottom: 1.125rem;
+  }
+
+  &__text {
+    max-width: 36rem;
+    font-size: 1.125rem;
+  }
+}
