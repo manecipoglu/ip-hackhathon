@@ -16,15 +16,35 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+    position: relative;
+
+    &::before {
+      content: url(../../assets/icons/arrow-left.png);
+      position: absolute;
+      top: 175px;
+      left: 250px;
+    }
+    &::after {
+      content: url(../../assets/icons/arrow-right.png);
+      position: absolute;
+      top: 175px;
+      right: 250px;
+    }
   }
 
   &__cta {
     height: 3.36rem;
     padding: 0 2rem;
     border: none;
+    border-radius: 8px;
     background-color: $bg-cta;
     font-size: 1.125rem;
     font-weight: 600;
     box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    &:hover {
+      background-color: $bg-hover;
+    }
   }
 }

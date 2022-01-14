@@ -23,9 +23,14 @@
     height: 3.36rem;
     padding: 0 2rem;
     border: none;
+    border-radius: 8px;
     background-color: $bg-cta;
     font-size: 1.125rem;
     font-weight: 600;
     box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    &:hover {
+      background-color: $bg-hover;
+    }
   }
 }

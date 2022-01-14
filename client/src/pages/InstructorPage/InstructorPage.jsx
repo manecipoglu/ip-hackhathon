@@ -2,6 +2,7 @@ import { Component } from "react";
 import InstructorCard from "../../components/InstructorCard/InstructorCard";
 import InstructorClassCard from "../../components/InstructorClassCard/InstructorClassCard";
 import axios from "axios";
+import filters from "../../assets/Filter Buttons.png";
 import "./InstructorPage.scss";
 
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8080";
@@ -40,6 +41,10 @@ export default class InstructorPage extends Component {
             <button className="instructor__cta">Join Online Classes</button>
           </section>
           <section className="instuctor__classes">
+            <div className="instructor__filter-container">
+              <h2 className="instructor__title">Classes</h2>
+              <img src={filters} alt="filters" />
+            </div>
             {classes &&
               classes.map(
                 ({ id, classTitle, detailedDescription, available }) => (
