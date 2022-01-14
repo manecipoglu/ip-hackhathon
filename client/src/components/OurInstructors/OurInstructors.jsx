@@ -2,7 +2,7 @@ import React from "react";
 import "./OurInstructors.scss";
 import InstructorCard from "../InstructorCard/InstructorCard";
 
-const OurInstructors = ({ instructors }) => {
+const OurInstructors = ({ instructors, history }) => {
   return (
     <section className="our-instructors">
       <h2 className="our-classes__title">Our Instructors</h2>
@@ -13,6 +13,8 @@ const OurInstructors = ({ instructors }) => {
             title={instructor.instructorName}
             key={instructor.id}
             classes={instructor.classes}
+            history={history}
+            id={instructor.id}
           />
         ))}
       </div>

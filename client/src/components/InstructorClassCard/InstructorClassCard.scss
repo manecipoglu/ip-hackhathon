@@ -1,0 +1,51 @@
+@use "../../styles/partials/variables" as *;
+
+.instructor-class {
+  color: $text-light;
+  background-color: $bg-light;
+  display: flex;
+  height: 20rem;
+  width: 70rem;
+  margin-bottom: 1.25rem;
+  position: relative;
+
+  &__img {
+    max-width: 16.81rem;
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__info {
+    padding: 1rem 3.16rem;
+  }
+
+  &__copy {
+    margin: 1rem 0;
+  }
+
+  &__cta {
+    height: 4.125rem;
+    padding: 0 5.625rem;
+    border: none;
+    background-color: $bg-cta;
+    font-size: 1.125rem;
+    font-weight: 600;
+    box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+    font-size: 1.75rem;
+  }
+
+  &__spots {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 0.25rem;
+  }
+
+  &__button {
+    position: absolute;
+    top: 1rem;
+    right: 3.16rem;
+  }
+}
