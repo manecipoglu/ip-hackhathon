@@ -1,32 +1,28 @@
-.footer-contanier {
+@use "../../styles/partials/variables" as *;
+
+.footer {
+  color: $text-light;
   display: flex;
-  justify-content: space-around;
-  background-color: #3d4150;
-}
-.left-section {
-  display: flex;
-}
-.footer-section {
-  &__title {
-    color: #ffffff;
-    font-size: 24px;
+  gap: 3.5rem;
+  padding: 0 16rem 2rem 16rem;
+  background-color: $bg-light;
+
+  &__section--logo {
+    text-align: right;
+    margin-left: auto;
   }
-}
-.footer-options {
-  &__select {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: lighter;
+
+  &__copy {
+    font-weight: 400;
+
+    &--title {
+      font-weight: 600;
+      margin-top: 1.875rem;
+    }
   }
-}
-.contact-us {
-  &__title {
-    color: #ffffff;
-    font-size: 24px;
-  }
-  &__email {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: lighter;
+
+  &__logo {
+    margin-top: 2.5rem;
+    margin-right: 0;
   }
 }

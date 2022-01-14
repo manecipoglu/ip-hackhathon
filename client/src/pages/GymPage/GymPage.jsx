@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Footer from "../../components/Footer/Footer";
 import Reviews from "../../components/Reviews/Reviews";
 import Description from "../../components/Description/Description";
 import About from "../../components/About/About";
@@ -41,6 +42,7 @@ export default class GymPage extends Component {
         {instructors && <OurInstructors instructors={instructors} />}
         {about && <Description description={about.about} />}
         {reviews && <Reviews reviews={reviews} />}
+        <Footer />
       </main>
     );
   }

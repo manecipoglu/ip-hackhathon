@@ -1,44 +1,35 @@
-import React from "react";
+import footerLogo from "../../assets/logo/footer-logo.png";
 import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer-contanier">
-      <div className="left-section">
-        <div className="footer-section">
-          <h3 className="footer-section__title">Browse</h3>
-          <div className="footer-options">
-            <h3 className="footer-options__select">Map</h3>
-            <h3 className="footer-options__select">Class Type</h3>
-            <h3 className="footer-options__select">Fitness Type</h3>
-          </div>
-        </div>
-        <div className="footer-section">
-          <h3 className="footer-section__title">About</h3>
-          <div className="footer-options">
-            <h3 className="footer-options__select">About us</h3>
-            <h3 className="footer-options__select">Who We Are</h3>
-            <h3 className="footer-options__select">Mission</h3>
-          </div>
-        </div>
-        <div className="footer-section">
-          <h3 className="footer-section__title">For Businesses</h3>
-          <div className="footer-options">
-            <h3 className="footer-options__select">List Your Business</h3>
-            <h3 className="footer-options__select">FAQ</h3>
-          </div>
-        </div>
+    <footer className="footer">
+      <div className="footer__section">
+        <h3 className="footer__copy footer__copy--title">Browse</h3>
+        <h3 className="footer__copy">Map</h3>
+        <h3 className="footer__copy">Class Type</h3>
+        <h3 className="footer__copy">Fitness Type</h3>
       </div>
-      <div className="contact-us">
-        <h3 className="contact-us__title">Contact Us</h3>
-        <h3 className="contact-us__email">contactus@virtufit.com</h3>
-        <img
-          className="contact-us__logo"
-          // src=""
-          alt="footer logo"
-        />
+
+      <div className="footer__section">
+        <h3 className="footer__copy footer__copy--title">About</h3>
+        <h3 className="footer__copy">About us</h3>
+        <h3 className="footer__copy">Who We Are</h3>
+        <h3 className="footer__copy">Mission</h3>
       </div>
-    </div>
+
+      <div className="footer__section">
+        <h3 className="footer__copy footer__copy--title">For Businesses</h3>
+        <h3 className="footer__copy">List Your Business</h3>
+        <h3 className="footer__copy">FAQ</h3>
+      </div>
+
+      <div className="footer__section footer__section--logo">
+        <h3 className="footer__copy">Contact Us</h3>
+        <h3 className="footer__copy">contactus@virtufit.com</h3>
+        <img src={footerLogo} alt="footer logo" className="footer__logo" />
+      </div>
+    </footer>
   );
 };
 
