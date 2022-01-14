@@ -4,7 +4,6 @@
 
 @use "./variables" as *;
 @use "./mixins";
-@use "./typography";
 
 /* Reset */
 *,
@@ -17,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   background: #ddd;
-  font-family: "TitilliumWeb", Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
