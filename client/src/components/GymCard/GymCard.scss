@@ -1,0 +1,40 @@
+@use "../../styles/partials/variables" as *;
+
+.gym-card {
+  background-color: $bg-dark;
+  max-width: 31rem;
+  color: $text-light;
+  display: flex;
+  margin: 0.1875rem 0;
+  cursor: pointer;
+
+  &__info {
+    flex-grow: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: $bg-cta;
+    font-size: 1.25rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__rating {
+    margin-left: auto;
+    margin-right: 0.25rem;
+    position: relative;
+    top: 2px;
+  }
+
+  &__reviews {
+    margin-left: auto;
+  }
+}

@@ -2,23 +2,14 @@
 //  Reset, Typography
 //  ============================================== **/
 
-// @use "./variables" as *;
-// @use "./mixins";
-// @use "./typography";
-
-// /* Reset */
-// *,
-// *::before,
-// *::after {
-//   box-sizing: border-box;
-// }
-
+@use "./variables" as *;
+@use "./mixins";
 
 body {
   margin: 0;
   padding: 0;
   background: #ddd;
-  font-family: "TitilliumWeb", Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul {
