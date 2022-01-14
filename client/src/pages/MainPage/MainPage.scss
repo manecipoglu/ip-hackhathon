@@ -7,6 +7,9 @@
   &__configs {
     height: 5.6rem;
     background-color: $bg-dark;
+    padding-left: 2.63rem;
+    display: flex;
+    align-items: center;
   }
 
   &__map {

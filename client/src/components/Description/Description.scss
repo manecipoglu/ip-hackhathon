@@ -23,5 +23,20 @@
   &__text {
     max-width: 36rem;
     font-size: 1.125rem;
+
+    position: relative;
+
+    &::before {
+      content: url(../../assets/icons/arrow-left.png);
+      position: absolute;
+      top: 70px;
+      left: -700px;
+    }
+    &::after {
+      content: url(../../assets/icons/arrow-right.png);
+      position: absolute;
+      top: 70px;
+      right: 600px;
+    }
   }
 }

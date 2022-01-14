@@ -10,7 +10,7 @@
   max-width: 120rem;
   background-color: $bg-light;
 
-  margin-bottom: 3.1875rem;
+  box-sizing: border-box;
 
   &__profile {
     display: flex;

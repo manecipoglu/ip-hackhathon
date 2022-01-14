@@ -8,24 +8,35 @@ export default function About({ about }) {
     <section className="about">
       <img src={heroMain} alt="people in the gym" />
       <div className="about__info">
-        <img src={logo} alt="logo" />
-        <p className="about__title">{about.name} Fitness | Vancouver, BC</p>
+        <img src={logo} alt="logo" className="about__logo" />
+        <p className="about__title">
+          <span className="about__label">{about.name}</span> Fitness |
+          Vancouver, BC
+        </p>
         <p className="about__address">{about.fullAddress}</p>
-        <p className="about__hours">Monday - Friday: 5:30am - 11:00pm</p>
-        <p className="about__hours">Saturday - Sunday: 8:00am - 8:00pm</p>
-        <p className="about__hours">Holidays: 8:00am - 8:00pm</p>
+        <p className="about__hours">
+          <span className="about__label">Monday - Friday:</span> 5:30am -
+          11:00pm
+        </p>
+        <p className="about__hours">
+          <span className="about__label">Saturday - Sunday:</span> 8:00am -
+          8:00pm
+        </p>
+        <p className="about__hours">
+          <span className="about__label">Holidays:</span> 8:00am - 8:00pm
+        </p>
         <div className="about__contact">
-          <p className="contact__info contact__info--phone">
-            {about.contact.phone}
-          </p>
-          <p className="contact__info contact__info--email">
-            {about.contact.email}
-          </p>
+          <p className="about__phone">{about.contact.phone}</p>
+          <p className="about__email">{about.contact.email}</p>
         </div>
-        <img src={rating} alt="rating" />
+        <img src={rating} alt="rating" className="about__rating" />
         <div className="about__ctas">
-          <button className="about__cta">Check out our classes</button>
-          <button className="about__cta">Check out our instructors</button>
+          <button className="about__cta">
+            <a href="#classes">Check out our classes</a>
+          </button>
+          <button className="about__cta">
+            <a href="#instructors">Check out our instructors</a>
+          </button>
         </div>
       </div>
     </section>

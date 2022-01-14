@@ -4,7 +4,7 @@ import InstructorCard from "../InstructorCard/InstructorCard";
 
 const OurInstructors = ({ instructors, history }) => {
   return (
-    <section className="our-instructors">
+    <section className="our-instructors" id="instructors">
       <h2 className="our-classes__title">Our Instructors</h2>
 
       <div className="our-instructors__cards">

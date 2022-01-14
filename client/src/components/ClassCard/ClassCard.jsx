@@ -1,7 +1,6 @@
 import "./ClassCard.scss";
 
 export default function ClassCard({ title, text }) {
-  console.log(title);
   return (
     <article className="class-card">
       <img
