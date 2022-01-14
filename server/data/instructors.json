@@ -3,24 +3,25 @@
     "id": "kristina",
     "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
     "instructorName": "Kristina Asher",
-    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"]
+    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"],
+    "message": "I care deeply about my clients, and there’s nothing of more value to me than helping somebody go through an experience that makes them happy, confident, and strong."
   },
   {
     "id": "brendan",
     "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
     "instructorName": "Brendan Jang",
-    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"]
+    "classes": ["Boot Camp", "HIIT Training"]
   },
   {
     "id": "poweryoga",
     "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
     "instructorName": "Jessica Hon",
-    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"]
+    "classes": ["Power Yoga", "Stability Ball Core"]
   },
   {
     "id": "stabilityballcore",
     "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
     "instructorName": "Darnell Sikorski",
-    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"]
+    "classes": ["Boot Camp", "Strength Training"]
   }
 ]
