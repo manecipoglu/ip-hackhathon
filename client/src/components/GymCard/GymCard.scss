@@ -2,11 +2,17 @@
 
 .gym-card {
   background-color: $bg-dark;
-  max-width: 31rem;
+  min-width: 31rem;
+  height: 9.875rem;
   color: $text-light;
   display: flex;
   margin: 0.1875rem 0;
   cursor: pointer;
+
+  &__logo {
+    width: 10.125rem;
+    object-fit: cover;
+  }
 
   &__info {
     flex-grow: 1;
@@ -14,11 +20,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
   }
 
   &__title {
     color: $bg-cta;
     font-size: 1.25rem;
+    margin: 0;
   }
 
   &__container {
@@ -35,6 +43,10 @@
   }
 
   &__reviews {
-    margin-left: auto;
+    margin: 0 0 0 auto;
+  }
+
+  &__copy {
+    margin: 0;
   }
 }

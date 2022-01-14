@@ -8,11 +8,7 @@ export default function SearchBar() {
         type="text"
         className="search__input search__input--copy"
       />
-      <input
-        type="text"
-        className="search__input search__input--city"
-        value="Vancouver, BC"
-      />
+      <input type="text" className="search__input search__input--city" />
       <input type="text" className="search__input search__input--hiit" />
     </div>
   );

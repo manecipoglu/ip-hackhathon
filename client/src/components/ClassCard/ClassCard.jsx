@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./ClassCard.scss";
+
 class ClassCard extends Component {
   render() {
     return (
@@ -7,16 +8,13 @@ class ClassCard extends Component {
         <div className="class-card-img">
           <img
             className="class-card__img"
-            //    src={}
+            src={require(`../../assets/photos/${this.props.title}.png`)}
             alt="class img"
           />
         </div>
         <div className="class-card-info">
-          <h3 className="class-card-info__title">BOOT CAMP</h3>
-          <p className="class-card-info__text">
-            This class involves intense physical training that builds strength
-            and fitness through group intervals over a one hour time period.
-          </p>
+          <h3 className="class-card-info__title">{this.props.title}</h3>
+          <p className="class-card-info__text">{this.props.text}</p>
           <button className="class-card-info__button">Find a time </button>
         </div>
       </div>

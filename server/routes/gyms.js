@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { readFile, writeFile } = require("../utils/helpers");
+const { readFile } = require("../utils/helpers");
 
 const gymRouter = Router();
 const FILE_PATH = "./data/gyms.json";
@@ -17,6 +17,16 @@ gymRouter.get("/:id", (req, res) => {
   const gym = gyms.find((gym) => gym.id === req.params.id);
   if (!gym) return res.status(404).send("The gym is not found");
   res.status(200).json(gym);
+});
+
+//Get classes of a gym by id
+gymRouter.get("/:id/classes", (req, res) => {
+  const classes = readFile("./data/classes.json");
+  const gymClasses = classes.filter(
+    (eachClass) => eachClass.gymID === req.params.id
+  );
+  if (!gymClasses) return res.status(404).send("No classes found");
+  res.status(200).json(gymClasses);
 });
 
 module.exports = gymRouter;

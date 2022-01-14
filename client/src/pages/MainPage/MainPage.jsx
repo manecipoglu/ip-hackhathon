@@ -31,7 +31,10 @@ export default class MainPage extends Component {
                 {gyms && gyms.length} fitness studios in Your Location
               </h1>
             </div>
-            {gyms && gyms.map((gym) => <GymCard key={gym.id} {...gym} />)}
+            {gyms &&
+              gyms.map((gym) => (
+                <GymCard key={gym.id} {...gym} history={this.props.history} />
+              ))}
           </section>
           <img src={map} alt="map" className="main__map" />
         </div>
