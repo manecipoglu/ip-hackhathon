@@ -1,0 +1,19 @@
+@use "../../styles/partials/variables" as *;
+
+.instructor-card {
+  color: $text-light;
+  max-width: 37.5rem;
+  gap: 1.8125rem;
+  margin: 1.45rem;
+  text-align: center;
+
+  &__title {
+    margin: 1.85rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

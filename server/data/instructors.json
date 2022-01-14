@@ -1,184 +1,26 @@
 [
   {
-    "id": "9b4f79ea-0e6c-4e59-8e05-afd933d0b3d3",
-    "gymID": "2922c286-16cd-4d43-ab98-c79f698aeab0",
-    "gymName": "FitIn30minutes",
-    "instructorName": "Viconia DeVir",
-    "category": ["Weight Lifting", "Fitness", "Yoga"]
-  },
-  {
-    "id": "a193a6a7-42ab-4182-97dc-555ee85e7486",
-    "gymID": "2922c286-16cd-4d43-ab98-c79f698aeab0",
-    "gymName": "FitIn30minutes",
-    "instructorName": "Valygar Corthala",
-    "category": ["Yoga, Fitness", "Weight Lifting"]
-  },
-  {
-    "id": "bdc6bb69-e09c-498d-8abd-be2792504d00",
-    "gymID": "2922c286-16cd-4d43-ab98-c79f698aeab0",
-    "gymName": "FitIn30minutes",
-    "instructorName": "Jan Jansen",
-    "category": ["Weight Lifting", "Yoga"]
-  },
-  {
-    "id": "3ce124a4-78b0-4d80-91b9-11f9ced631a7",
-    "gymID": "2922c286-16cd-4d43-ab98-c79f698aeab0",
-    "gymName": "FitIn30minutes",
-    "instructorName": "Mazzy Fentan",
-    "category": ["Weight Lifting", "Fitness"]
-  },
-  {
-    "id": "c0ba64a8-0ecb-4a7d-ab7f-2dbbd1d437b1",
-    "gymID": "2922c286-16cd-4d43-ab98-c79f698aeab0",
-    "gymName": "FitIn30minutes",
-    "instructorName": "Edwin Odesseiron",
-    "category": ["Yoga"]
-  },
-  {
-    "id": "b70067d1-49c9-4925-b830-67b3e98005d5",
-    "gymID": "2922c286-16cd-4d43-ab98-c79f698aeab0",
-    "gymName": "FitIn30minutes",
-    "instructorName": "Keldorn Firecam",
-    "category": ["Weight Lifting", "Yoga"]
-  },
-  {
-    "id": "7c79d334-6b90-4052-9def-aa9b8519c9fb",
-    "gymID": "5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
-    "gymName": "Kalev Fitness",
-    "instructorName": "Korgan Bloodaxe",
-    "category": ["Fitness, Weight Lifting"]
-  },
-  {
-    "id": "72c826ba-fde0-4aae-9aaf-95c6072946cd",
-    "gymID": "5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
-    "gymName": "Kalev Fitness",
-    "instructorName": "Sarevok Anchev",
-    "category": ["Weight Lifting"]
-  },
-  {
-    "id": "705b808f-d8a0-4713-a796-8653c5c5952b",
-    "gymID": "5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
-    "gymName": "Kalev Fitness",
-    "instructorName": "Nalia de'Arnise",
-    "category": ["Fitness, Yoga"]
-  },
-  {
-    "id": "f19b0b8a-9cca-4567-9af7-4016a15e038a",
-    "gymID": "5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
-    "gymName": "Kalev Fitness",
-    "instructorName": "Anomen Delryn",
-    "category": ["Fitness"]
-  },
-  {
-    "id": "2c0185c7-89ef-48ad-a22f-9fc022a5c90c",
+    "id": "kristina",
     "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
-    "gymName": "Orangetheory",
-    "instructorName": "Viconia DeVir",
-    "category": ["Weight Lifting", "Fitness", "Yoga"]
+    "instructorName": "Kristina Asher",
+    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"]
   },
   {
-    "id": "3b042051-f18c-4a16-a393-68ceba87277a",
+    "id": "brendan",
     "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
-    "gymName": "Orangetheory",
-    "instructorName": "Valygar Corthala",
-    "category": ["Yoga, Fitness", "Weight Lifting"]
+    "instructorName": "Brendan Jang",
+    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"]
   },
   {
-    "id": "d3c08f85-4570-48e1-88df-610614477359",
+    "id": "poweryoga",
     "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
-    "gymName": "Orangetheory",
-    "instructorName": "Jan Jansen",
-    "category": ["Weight Lifting", "Yoga"]
+    "instructorName": "Jessica Hon",
+    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"]
   },
   {
-    "id": "043a70e2-cf28-4ce1-a9a4-e5b3fac9c593",
+    "id": "stabilityballcore",
     "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
-    "gymName": "Orangetheory",
-    "instructorName": "Mazzy Fentan",
-    "category": ["Weight Lifting", "Fitness"]
-  },
-  {
-    "id": "70ca48a6-93e2-4ff0-b3a2-f5a38f1a043e",
-    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
-    "gymName": "Orangetheory",
-    "instructorName": "Edwin Odesseiron",
-    "category": ["Yoga"]
-  },
-  {
-    "id": "d3d7aa3c-6e27-4ab0-9496-f95faa5042f0",
-    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
-    "gymName": "Orangetheory",
-    "instructorName": "Keldorn Firecam",
-    "category": ["Weight Lifting", "Yoga"]
-  },
-  {
-    "id": "828c12d1-c0dd-4fd4-b8db-ac8eb493f8f8",
-    "gymID": "bfc9bea7-66f1-44e9-879b-4d363a888eb4",
-    "gymName": "Studeo",
-    "instructorName": "Korgan Bloodaxe",
-    "category": ["Fitness, Weight Lifting"]
-  },
-  {
-    "id": "226fd4a6-863c-459d-b69c-007262a64015",
-    "gymID": "bfc9bea7-66f1-44e9-879b-4d363a888eb4",
-    "gymName": "Studeo",
-    "instructorName": "Sarevok Anchev",
-    "category": ["Weight Lifting"]
-  },
-  {
-    "id": "5c2000b8-f8c4-461f-935c-66eaeb52c561",
-    "gymID": "bfc9bea7-66f1-44e9-879b-4d363a888eb4",
-    "gymName": "Studeo",
-    "instructorName": "Nalia de'Arnise",
-    "category": ["Fitness, Yoga"]
-  },
-  {
-    "id": "0716ecfc-e296-4f9f-906b-45e84030285b",
-    "gymID": "bfc9bea7-66f1-44e9-879b-4d363a888eb4",
-    "gymName": "Studeo",
-    "instructorName": "Anomen Delryn",
-    "category": ["Fitness"]
-  },
-  {
-    "id": "ae986f59-8c40-480c-bd28-ee6068cd3617",
-    "gymID": "89898957-04ba-4bd0-9f5c-a7aea7447963",
-    "gymName": "CrossFit 604",
-    "instructorName": "Viconia DeVir",
-    "category": ["Weight Lifting", "Fitness", "Yoga"]
-  },
-  {
-    "id": "cadc66b1-8b45-4499-a44d-fa02f1e01a04",
-    "gymID": "89898957-04ba-4bd0-9f5c-a7aea7447963",
-    "gymName": "CrossFit 604",
-    "instructorName": "Valygar Corthala",
-    "category": ["Yoga, Fitness", "Weight Lifting"]
-  },
-  {
-    "id": "2165edfe-b836-40ce-90cb-3bc9746fe948",
-    "gymID": "89898957-04ba-4bd0-9f5c-a7aea7447963",
-    "gymName": "CrossFit 604",
-    "instructorName": "Jan Jansen",
-    "category": ["Weight Lifting", "Yoga"]
-  },
-  {
-    "id": "ef53825b-8e42-4525-8357-2981bd9c84f9",
-    "gymID": "89898957-04ba-4bd0-9f5c-a7aea7447963",
-    "gymName": "CrossFit 604",
-    "instructorName": "Mazzy Fentan",
-    "category": ["Weight Lifting", "Fitness"]
-  },
-  {
-    "id": "9ed031c0-c0ad-4a5d-87f0-9fdb4cf0ff48",
-    "gymID": "89898957-04ba-4bd0-9f5c-a7aea7447963",
-    "gymName": "CrossFit 604",
-    "instructorName": "Edwin Odesseiron",
-    "category": ["Yoga"]
-  },
-  {
-    "id": "cb460eb8-861a-45e6-8ce8-8ee9b8efabcf",
-    "gymID": "89898957-04ba-4bd0-9f5c-a7aea7447963",
-    "gymName": "CrossFit 604",
-    "instructorName": "Keldorn Firecam",
-    "category": ["Weight Lifting", "Yoga"]
+    "instructorName": "Darnell Sikorski",
+    "classes": ["Power Yoga", "HIIT Training", "STRENGTH TRAINING"]
   }
 ]

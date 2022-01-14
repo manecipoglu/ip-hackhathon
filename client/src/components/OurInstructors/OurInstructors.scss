@@ -1,22 +1,21 @@
 @use "../../styles/partials/variables" as *;
 
-.our-classes {
+.our-instructors {
   color: $text-light;
   text-align: center;
   padding: 1.7rem;
   background-color: $bg-light;
+  margin-top: 3.125rem;
 
   &__title {
     font-size: 2rem;
-    font-weight: 400;
     margin-top: 0;
   }
 
   &__cards {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    gap: 1rem;
   }
 
   &__cta {
