@@ -1,26 +1,26 @@
 [
   {
-    "id": "hiit",
-    "instructorID": "kristina",
-    "classTitle": "HIIT Training",
-    "available": 3,
-    "description": "HIIT refers to a very specific and particular type of training—and it's possible to do interval training without actually doing a real HIIT workout.",
-    "detailedDescription": "HIIT refers to a very specific and particular type of training—and it's possible to do interval training without actually doing a real HIIT workout. When your body is going all-out during true HIIT, it relies on your anaerobic pathways (breaking down glucose without oxygen) to produce the energy it needs to fuel you. This provides an immediate supply of energy, but the amount is very limited"
+    "id": "bootcamp",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "classTitle": "BOOT CAMP",
+    "description": "This class involves intense physical training that builds strength and fitness through group intervals over a one hour time period."
   },
   {
-    "id": "stabilityballcore",
-    "instructorID": "kristina",
-    "classTitle": "STRENGTH TRAINING",
-    "available": 4,
-    "description": "Exercise Balls have many uses in Pilates. While they can be used as a simple support, they can engage all your core muscles by making balancing more of a challenge.",
-    "detailedDescription": "This style of yoga is more intense, similar to Ashtanga and some Vinyasa. You will focus on strength and endurance, as well as flexibility and relaxation. Classes end with Savasana -- a period of relaxation. Designed for a more athletic and higher impact style of yoga, your heart rate and blood flow will be increased through a variety intense poses paired together to challenge your strength and flexibility."
+    "id": "hiit",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "classTitle": "HIIT",
+    "description": "HIIT refers to a very specific and particular type of training—and it's possible to do interval training without actually doing a real HIIT workout."
   },
   {
     "id": "poweryoga",
-    "instructorID": "kristina",
-    "classTitle": "Power Yoga",
-    "available": 7,
-    "description": "This style of yoga is more intense, similar to Ashtanga and some Vinyasa. You will focus on strength and endurance, as well as flexibility and relaxation.",
-    "detailedDescription": "This style of yoga is more intense, similar to Ashtanga and some Vinyasa. You will focus on strength and endurance, as well as flexibility and relaxation. Classes end with Savasana -- a period of relaxation. Designed for a more athletic and higher impact style of yoga, your heart rate and blood flow will be increased through a variety intense poses paired together to challenge your strength and flexibility."
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "classTitle": "POWER YOGA",
+    "description": "This style of yoga is more intense, similar to Ashtanga and some Vinyasa. You will focus on strength and endurance, as well as flexibility and relaxation."
+  },
+  {
+    "id": "stabilityballcore",
+    "gymID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
+    "classTitle": "STABILITY BALL CORE",
+    "description": "Exercise Balls have many uses in Pilates. While they can be used as a simple support, they can engage all your core muscles by making balancing more of a challenge."
   }
 ]

@@ -38,7 +38,7 @@ instructorsRouter.get("/gyms/:gymId", (req, res) => {
 instructorsRouter.get("/:instructorId/classes", (req, res) => {
   const instructorId = req.params.instructorId;
 
-  const classes = readFile("./data/classes.json");
+  const classes = readFile("./data/classes copy.json");
   const instructorsClasses = classes.filter(
     (eachClass) => eachClass.instructorID === instructorId
   );

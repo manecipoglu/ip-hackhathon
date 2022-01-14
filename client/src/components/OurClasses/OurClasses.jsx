@@ -16,7 +16,7 @@ export default function OurClasses({ classes }) {
         ))}
       </div>
 
-      <button className="our-classes__cta">See All Classes </button>
+      <button className="our-classes__cta">See All Classes</button>
     </section>
   );
 }
