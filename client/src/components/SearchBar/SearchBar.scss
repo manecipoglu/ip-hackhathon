@@ -1,0 +1,25 @@
+.search {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid black;
+
+  &__input {
+    height: 4.12rem;
+    border: none;
+
+    &--copy {
+      padding-left: 2rem;
+    }
+
+    &--city {
+      border-left: 1px solid black;
+      padding-left: 2rem;
+    }
+
+    &--hiit {
+      border-left: 1px solid black;
+      padding-left: 1rem;
+    }
+  }
+}
