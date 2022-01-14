@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./InstructorClassCard.scss";
 
 export default function InstructorClassCard({ title, description, available }) {
@@ -29,7 +30,9 @@ export default function InstructorClassCard({ title, description, available }) {
         </p>
       </section>
       <div className="instructor-class__button">
-        <button className="instructor-class__cta">Book</button>
+        <Link to="/payment">
+          <button className="instructor-class__cta">Book</button>
+        </Link>
         <p className="instructor-class__spots">{available} Spots available</p>
       </div>
     </article>

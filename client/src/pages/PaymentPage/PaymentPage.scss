@@ -1,5 +1,5 @@
 @use "../../styles/partials/variables" as *;
-.booking {
+.payment {
   color: $text-light;
   text-align: center;
   padding: 4rem 0;
@@ -24,6 +24,10 @@
     justify-content: center;
     gap: 8.5rem;
     margin-top: 3rem;
+  }
+
+  &__hidden {
+    visibility: hidden;
   }
 
   &__card {
